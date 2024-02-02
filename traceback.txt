@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 1420, in script
+    jump second_conf
+ScriptError: could not find label 'second_conf'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 1420, in script
+    jump second_conf
+  File "renpy/ast.py", line 1698, in execute
+    rv = renpy.game.script.lookup(target)
+  File "renpy/script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'second_conf'.
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 7.7.0.24012702
+Sixth hood 1.0
+Fri Feb  2 19:15:28 2024
