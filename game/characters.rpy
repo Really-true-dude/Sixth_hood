@@ -1,7 +1,7 @@
 # Определение персонажей игры.
 define mc = Character("[mc_name]", color="#006400")
 define asuka = Character("Асука", color="#DC143C")
-define ioshi = Character("Йоши", color= "#20B2AA")
+define yuki = Character("Юки", color= "#20B2AA")
 define ray = Character("Рей", color="#00FFFF")
 
 define s = Character("Александр", color="#FFD700")
