@@ -10,6 +10,7 @@ define b = Character("Бенжамин", color="#808000")
 define al = Character("Алексей", color="#FF4500")
 define v = Character("Владислав", color="#800080")
 
+
 define vs = Character("Военный советник", color="#FFD700")
 define ds = Character("Дипломатический советник", color="#FFD700")
 define fs = Character("Финансовый советник", color="#FFD700")

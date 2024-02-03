@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 1953: else clause expects a non-empty block.
-    else: 
-          ^
+The label asuka_helps_us is defined twice, at File "game/story/secondDayMorning.rpy", line 35:
+    label asuka_helps_us:
+and File "game/story/secondDayMorning.rpy", line 79:
+label asuka_helps_us:
 
-Ren'Py Version: Ren'Py 7.4.6.1693
-Sat Nov 13 17:27:37 2021
+
+The label asuka_doesnt_helps_us is defined twice, at File "game/story/secondDayMorning.rpy", line 72:
+    label asuka_doesnt_helps_us:
+and File "game/story/secondDayMorning.rpy", line 96:
+label asuka_doesnt_helps_us:
+
+
+Ren'Py Version: Ren'Py 7.7.0.24012702
+Sat Feb  3 13:45:54 2024
